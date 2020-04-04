@@ -6,10 +6,10 @@ styles: []
 libraries: [d3, "https://code.highcharts.com/maps/highmaps.js", "https://code.highcharts.com/mapdata/countries/us/custom/us-all-mainland.js"] #jquery, d3, highcharts, datatables
 options: [] #wide, noheader (, nopic)
 ---
-Situace ve Spojených státech eskalovala během pouhého měsíce. Na začátku března oficiální počty hovořily o 70 nakažených, přisuzovala se jim podobně jako u prvních tuzemských případů cestovatelská npmanamnéza. Podle deníku [The New York Times](https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html#states), který data o nakažených a zemřelých průběžně aktualizuje, se počet zemřelých za posledních osm dní zvýšil na svůj šestinásobek.
+Situace ve Spojených státech eskalovala během pouhého měsíce. Na začátku března oficiální počty hovořily o 70 nakažených, přisuzovala se jim podobně jako u prvních tuzemských případů cestovatelská anamnéza. Podle deníku [The New York Times](https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html#states), který data o nakažených a zemřelých průběžně aktualizuje, se počet zemřelých za posledních osm dní zvýšil na svůj šestinásobek.
 
 <wide>
-<div id="container"></div>
+<div id="containerusa"></div>
 </wide>
 <br>
 
@@ -19,15 +19,20 @@ Bezpečnostní opatření se v jednotlivých státech liší, o víkendu ale Ame
 
 Zatímco na Floridě zůstávají otevřená například golfová hřiště, ve druhém nejlidnatějším státě USA - Texasu, je běžný život paralyzován. „Skoro všechno je zavřené, ale restaurace dělají rozvoz. Můžeme chodit jen na procházky kolem domu. Roušku nosí asi polovina lidí, které venku vídám,“ uvedla pro server iROZHLAS.cz Cahner Olson, Američanka žijící v texaském Dallasu. 
 
-<img class="embed" src="https://www.irozhlas.cz/sites/default/files/styles/zpravy_clanek_telo_4_3/public/uploader/2020-04-03t131941z_7_200403-173452_nkr.JPG?itok=aE5LcAX3" width="100%">
-
-<i> Žena vyfocena se zakrytými ústy v americkém státě Washington. (Reuters)</i>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.15.0/d3.min.js"></script>
+<script src="https://code.highcharts.com/maps/highmaps.js"></script>
+<div id="corona_usa"></div>
+<script src="https://data.irozhlas.cz/corona-map/pocitadlo-usa.js"></script>
 
 Nebezpečí se podle amerických médií neskrývá na veřejných prostranstvích, ale za zdmi - lokalizovaná ohniska nákazy hlásí domovy pro seniory, silně postižena jsou nápravná zařízení. „Sedm tisíc amerických věznic a imigračních cel nejsou vybaveny na to, aby pandemii zvládly,“ uvedl pro agenturu [AP](https://apnews.com/4e1e4ffaeb6bf9a9fabcc566fe5b110d) někdejší vedoucí lékař vězeňské služby v New Yorku. 
 
 Podle odborníků je téměř nemožné nakažené vězně oddělit od ostatních, fyzickému distancování nenahrává přetíženost amerického vězeňského systému. Ten se navíc potýká s akutním nedostatkem ochranných pomůcek, dezinfekce je pro svůj vysoký obsah alkoholu ve většině zařízeních považována za riziko. 
 
 Amerika má za mřížemi více než 2,2 milionu lidí, více než kterýkoli jiný národ. Mnohá z federálních i státních zařízení bývají plná stárnoucí populace, která se mnohdy potýká s chronickými onemocněními a nedostatečnou zdravotní péčí.
+
+<img class="embed" src="https://www.irozhlas.cz/sites/default/files/styles/zpravy_clanek_telo_4_3/public/uploader/2020-04-03t131941z_7_200403-173452_nkr.JPG?itok=aE5LcAX3" width="100%">
+
+<i> Žena vyfocena se zakrytými ústy v americkém státě Washington. (Reuters)</i>
 
 ## Útěk z vězení
 Během dvanácti dní koronavirus zahltil známý vězeňský komplex Rikers Island, který s kapacitou 5300 vězňů a dvojnásobkem personálu patří k největším na světě. Prvním nakaždeným byl kuchař z řad zaměstnanců, postupně se nakazily dvě stovky vězňů a stejný počet pracovníků. Ti teď navíc žalují město New York, které jim podle unie strážců nedokázalo zajistit dostatečnou ochranu. Práci ve vězení v těchto podmíkách bez roušek a rukavic považují za ,nesmyslný hazard,' informovala agentura [Reuters](https://www.reuters.com/article/us-health-coronavirus-new-york-rikersisl/rikers-island-jail-officers-union-sues-new-york-city-over-coronavirus-idUSKBN21K3KR). 

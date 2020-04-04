@@ -16,7 +16,7 @@ fetch("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.
       let maxDatum = Math.max.apply(null, datumy);
       let aktualniResult = result.filter(d => d.datum.valueOf() === maxDatum);
       console.log(aktualniResult);
-      Highcharts.mapChart('container', {
+      Highcharts.mapChart('containerusa', {
           chart: {
               borderWidth: 0,
               map: 'countries/us/custom/us-all-mainland'
