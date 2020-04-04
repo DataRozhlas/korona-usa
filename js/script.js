@@ -2,7 +2,7 @@
 fetch("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv")
   .then(response => response.text())
   .then(data => {
-      let result = d3.csv.parse(data, function (d) {
+      let result = d3.csvParse(data, function (d) {
           return {
               datum: new Date(d.date),
               stat: d.state,
@@ -15,7 +15,7 @@ fetch("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.
       result.forEach(d => datumy.push(d.datum));
       let maxDatum = Math.max.apply(null, datumy);
       let aktualniResult = result.filter(d => d.datum.valueOf() === maxDatum);
-      console.log(aktualniResult);
+
       Highcharts.mapChart('containerusa', {
           chart: {
               borderWidth: 0,

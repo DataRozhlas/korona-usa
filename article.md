@@ -3,7 +3,7 @@ perex: "Koronaviru ve Spojený státech podlehlo více než sedm tisíc lidí, n
 coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/f202004020313101_200402-162303_nkr.jpeg?itok=vKxsfbp3
 coverimg_note: "Pracovník vězeňské služby během převozu nakažených vězňů do nemocnice v New Yorku.<a href='https://ctk.cz'>ČTK/ZUMA/Marie Le Ble</a>"
 styles: []
-libraries: [d3, "https://code.highcharts.com/maps/highmaps.js", "https://code.highcharts.com/mapdata/countries/us/custom/us-all-mainland.js"] #jquery, d3, highcharts, datatables
+libraries: ['https://cdnjs.cloudflare.com/ajax/libs/d3/5.15.0/d3.min.js', "https://code.highcharts.com/maps/highmaps.js", "https://code.highcharts.com/mapdata/countries/us/custom/us-all-mainland.js", 'https://data.irozhlas.cz/corona-map/pocitadlo-usa.js'] #jquery, d3, highcharts, datatables
 options: [] #wide, noheader (, nopic)
 ---
 Situace ve Spojených státech eskalovala během pouhého měsíce. Na začátku března oficiální počty hovořily o 70 nakažených, přisuzovala se jim podobně jako u prvních tuzemských případů cestovatelská anamnéza. Podle deníku [The New York Times](https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html#states), který data o nakažených a zemřelých průběžně aktualizuje, se počet zemřelých za posledních osm dní zvýšil na svůj šestinásobek.
@@ -19,10 +19,7 @@ Bezpečnostní opatření se v jednotlivých státech liší, o víkendu ale Ame
 
 Zatímco na Floridě zůstávají otevřená například golfová hřiště, ve druhém nejlidnatějším státě USA - Texasu, je běžný život paralyzován. „Skoro všechno je zavřené, ale restaurace dělají rozvoz. Můžeme chodit jen na procházky kolem domu. Roušku nosí asi polovina lidí, které venku vídám,“ uvedla pro server iROZHLAS.cz Cahner Olson, Američanka žijící v texaském Dallasu. 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.15.0/d3.min.js"></script>
-<script src="https://code.highcharts.com/maps/highmaps.js"></script>
 <div id="corona_usa"></div>
-<script src="https://data.irozhlas.cz/corona-map/pocitadlo-usa.js"></script>
 
 Nebezpečí se podle amerických médií neskrývá na veřejných prostranstvích, ale za zdmi - lokalizovaná ohniska nákazy hlásí domovy pro seniory, silně postižena jsou nápravná zařízení. „Sedm tisíc amerických věznic a imigračních cel nejsou vybaveny na to, aby pandemii zvládly,“ uvedl pro agenturu [AP](https://apnews.com/4e1e4ffaeb6bf9a9fabcc566fe5b110d) někdejší vedoucí lékař vězeňské služby v New Yorku. 
 
