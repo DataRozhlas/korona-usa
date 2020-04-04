@@ -1,6 +1,4 @@
 ﻿import "./byeie"; // loučíme se s IE
-
-// snadné načtení souboru pro každého!
 fetch("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv")
   .then(response => response.text())
   .then(data => {
@@ -27,7 +25,7 @@ fetch("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.
               text: 'Počet nakažených COVID-19 ve státech USA k ' + new Date(maxDatum).getDate() + '.' + (new Date(maxDatum).getMonth() + 1) + '.' + new Date(maxDatum).getFullYear()
           },
           subtitle: {
-              text: 'Pro přesný údaj o počtu nakažených a mrtvých najeďte myší nad vybraný stát'
+              text: 'Pro přesný údaj o počtu nakažených a mrtvých vyberte stát'
           },
           credits: {
             text: 'Zdroj dat: The New York Times',

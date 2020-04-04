@@ -2,14 +2,14 @@ title: "Koronavirus v USA:<br>Věznice se mohou stát epicentrem pandemie, varuj
 perex: "Koronaviru ve Spojený státech podlehlo více než sedm tisíc lidí, nakažených je přes čtvrt milionu. Epicentrem je nadále východní pobřeží v čele s New Yorkem, který eviduje téměř 40 procent všech případů. Nemoc Covid-19 ale proniká i na americký Středozápad - v Illinois je známá u osmi tisíc osob, více než dvě stovky z nich se nakazily za zdmi jedné z tamních věznic. Odborníci varují, že právě trestanci se mohou stát nejohroženější skupinou Američanů."
 coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/f202004020313101_200402-162303_nkr.jpeg?itok=vKxsfbp3
 coverimg_note: "Pracovník vězeňské služby během převozu nakažených vězňů do nemocnice z jednoho ze zařízení v New Yorku.<a href='https://ctk.cz'>ČTK/ZUMA/Marie Le Ble</a>"
-styles: []npm 
+styles: []
 libraries: [d3, "https://code.highcharts.com/maps/highmaps.js", "https://code.highcharts.com/mapdata/countries/us/custom/us-all-mainland.js"] #jquery, d3, highcharts, datatables
 options: [] #wide, noheader (, nopic)
 ---
 Situace ve Spojených státech eskalovala během pouhého měsíce. Na začátku března oficiální počty hovořily o 70 nakažených, přisuzovala se jim podobně jako u prvních tuzemských případů cestovatelská npmanamnéza. Podle deníku [The New York Times](https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html#states), který data o nakažených a zemřelých průběžně aktualizuje, se počet zemřelých za posledních osm dní zvýšil na svůj šestinásobek.
 
 <wide>
-<div id='container'></div>
+<div id="container"></div>
 </wide>
 <br>
 
