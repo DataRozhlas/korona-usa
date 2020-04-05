@@ -1,5 +1,5 @@
 title: "Koronavirus v USA:<br>Věznice se mohou stát epicentrem pandemie, varují odborníci"
-perex: "Koronaviru ve Spojený státech podlehlo více než sedm tisíc lidí, nakažených je přes čtvrt milionu. Epicentrem je nadále východní pobřeží v čele s New Yorkem, který eviduje téměř 40 procent všech případů. Nemoc Covid-19 ale proniká i na americký Středozápad - v Illinois je známá u osmi tisíc osob, více než dvě stovky z nich se nakazily za zdmi jedné z tamních věznic. Odborníci varují, že právě trestanci se mohou stát nejohroženější skupinou Američanů."
+perex: "Koronaviru ve Spojený státech podlehlo více než osm tisíc lidí, počet nakažených přesáhl čtvrt milionu. Epicentrem je nadále východní pobřeží v čele s New Yorkem, který eviduje téměř 40 procent všech případů. Nemoc Covid-19 ale proniká i na americký Středozápad - v Illinois je známá u deseti tisíc osob, více než dvě stovky z nich se nakazily za zdmi jedné z tamních věznic. Odborníci varují, že právě trestanci se mohou stát nejohroženější skupinou Američanů."
 coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/f202004020313101_200402-162303_nkr.jpeg?itok=vKxsfbp3
 coverimg_note: "Pracovník vězeňské služby během převozu nakažených vězňů do nemocnice v New Yorku.<a href='https://ctk.cz'>ČTK/ZUMA/Marie Le Ble</a>"
 styles: []
@@ -13,7 +13,7 @@ Situace ve Spojených státech eskalovala během pouhého měsíce. Na začátku
 </wide>
 <br>
 
-Nad dva tisíce případů podle deníku hlásí 21 amerických států. Silně zasažen je kromě obou pobřeží také jih země. Situace se zhoršuje v Lousianě, na každých sto tisíc obyvatel připadá 220 s pozitivním testem na koronavirus. Ve státě Georgia zemřely téměř dvě stovky lidí, sousední Florida hlásí více než deset tisíc nakažených.
+Nad dva tisíce případů podle deníku hlásí 22 amerických států. Silně zasažen je kromě obou pobřeží také jih země. Situace se zhoršuje v Lousianě, na každých sto tisíc obyvatel připadá 267 s pozitivním testem na koronavirus. Ve státě Georgia zemřely dvě stovky lidí, sousední Florida hlásí více než jedenáct tisíc nakažených.
 
 Bezpečnostní opatření se v jednotlivých státech liší, o víkendu ale Americké Středisko pro kontrolu a prevenci nemocí všem Američanům doporučilo nosit látkové roušky. Prezident Donald Trump reagoval slovy o tom, že zakrývání obličeje není povinné. Sám nosit roušku odmítl. 
 
