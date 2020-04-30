@@ -1,4 +1,3 @@
-import "./byeie"; // loučíme se s IE
 fetch("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv")
   .then(response => response.text())
   .then(data => {
